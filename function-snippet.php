@@ -25,19 +25,19 @@ function populate_form( $form ) {
 					'relation' => 'OR',
 					array(
 						'taxonomy'      => 'product_cat',
-						'field'					=> 'term_id',
+						'field'		=> 'term_id',
 						'terms'         => '21', //woocommerce category
 						'operator'      => 'IN'
 					),
 					array(
 						'taxonomy'      => 'product_cat',
-						'field'					=> 'term_id', 
+						'field'		=> 'term_id', 
 						'terms'         => '22',//woocommerce category
 						'operator'      => 'IN'
 					),
 					array(
 						'taxonomy'      => 'product_cat',
-						'field'					=> 'term_id', 
+						'field'		=> 'term_id', 
 						'terms'         => '23',//woocommerce category
 						'operator'      => 'IN'
 					)					
@@ -68,7 +68,7 @@ function populate_form( $form ) {
 				'tax_query' => array(
 					array(
 						'taxonomy'      => 'product_cat',
-						'field' 				=> 'tag_id', 
+						'field' 	=> 'tag_id', 
 						'terms'         => '28',
 						'operator'      => 'IN' 
 					)
@@ -99,7 +99,7 @@ function populate_form( $form ) {
 				'tax_query' => array(
 					array(
 						'taxonomy'      => 'product_cat',
-						'field'				  => 'term_id',
+						'field'		=> 'term_id',
 						'terms'         => '26',
 						'operator'      => 'IN'
 					)
